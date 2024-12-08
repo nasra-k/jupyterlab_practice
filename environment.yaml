@@ -1,0 +1,24 @@
+name: base
+channels:
+  - pkgs/main
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - conda==24.9.2
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - console_shortcut_miniconda
+  - powershell_shortcut_miniconda
+  - anaconda-anon-usage
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-spellchecker
+  - pandas
+  - nb_conda_kernels
+prefix: C:\Users\nasra\miniconda3
